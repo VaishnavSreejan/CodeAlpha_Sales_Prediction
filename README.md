@@ -304,7 +304,6 @@ python load_dataset.py
 
 - **Author:** Vaishnav Sreejan  
 - **Internship:** [CodeAlpha](https://codealpha.tech/) Data Science Virtual Internship  
-- **LinkedIn:** [Vaishnav Sreejan](https://www.linkedin.com/in/vaishnav-sreejan/)  
 - **Repository:** [CodeAlpha_Sales_Prediction](https://github.com/VaishnavSreejan/CodeAlpha_Sales_Prediction)  
 
 *Special thanks to CodeAlpha for providing this practical project assignment.*
