@@ -1,0 +1,4 @@
+Feature,Importance,Metric,Model,Relative_Importance_Pct
+TV,0.6125785631013461,Tree Importance (Gini / MDI),Gradient Boosting,61.26
+Radio,0.3809141773073387,Tree Importance (Gini / MDI),Gradient Boosting,38.09
+Newspaper,0.006507259591315218,Tree Importance (Gini / MDI),Gradient Boosting,0.65

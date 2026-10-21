@@ -1,0 +1,35 @@
+======================================================================
+       CODEALPHA TASK 4: SALES PREDICTION & ADVERTISING ANALYSIS
+======================================================================
+Total Campaigns Analyzed: 200 market regions
+Average Product Sales: 14.02k units (Min: 1.6k, Max: 27.0k)
+
+1. CHANNEL EFFECTIVENESS & CORRELATION WITH SALES:
+   - TV Advertising (r = 0.7822):
+     Strongest driver of sales. Accounts for ~73% of total marketing budget.
+     High-budget TV campaigns consistently produce higher sales volume.
+   - Radio Advertising (r = 0.5762):
+     Moderate-to-strong positive correlation. Highly cost-effective channel.
+     Acts as an effective multiplier when paired with TV campaigns.
+   - Newspaper Advertising (r = 0.2283):
+     Weakest correlation with sales. Often collinear with Radio spend,
+     providing minimal independent predictive power in multivariate models.
+
+2. BUDGET ALLOCATION SUMMARY:
+   - TV: Mean spend $147.04k | Share 73.2%
+   - Radio: Mean spend $23.26k | Share 11.6%
+   - Newspaper: Mean spend $30.55k | Share 15.2%
+
+3. STRATEGIC MARKETING RECOMMENDATIONS:
+   - Prioritize TV & Radio Synergy: Reallocate underperforming Newspaper budget
+     towards joint TV + Radio campaigns to maximize advertising ROI.
+   - Avoid Over-Investing in Print: Newspaper shows diminishing and low direct return.
+   - Predictability: Regression models achieve R2 > 0.89 using these three channels,
+     making advertising expenditure a reliable forecasting baseline.
+
+4. MACHINE LEARNING MODEL PERFORMANCE:
+   - Linear Regression         | R2: 0.8994 | RMSE: 1.7816 | MAE: 1.4608
+   - Decision Tree             | R2: 0.9145 | RMSE: 1.6424 | MAE: 1.1944
+   - Random Forest             | R2: 0.9801 | RMSE: 0.7935 | MAE: 0.6319
+   - Gradient Boosting         | R2: 0.9831 | RMSE: 0.7295 | MAE: 0.6181
+======================================================================
